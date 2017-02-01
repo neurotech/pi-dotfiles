@@ -64,7 +64,7 @@ image_host="teknik"
 
 image_backend="ascii"
 image_source="$HOME/.config/neofetch/logo"
-ascii_distro="auto"
+ascii_distro="arch_small"
 ascii_colors=(1 1 1 5 7 7)
 ascii_bold="on"
 
