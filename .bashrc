@@ -48,6 +48,7 @@ esac
 
 # Aliases
 alias agu="sudo apt-get update && sudo apt-get upgrade"
+alias ..="cd .."
 alias cd..="cd .."
 alias refresh="source ~/.bashrc"
 alias ll='ls -l'
