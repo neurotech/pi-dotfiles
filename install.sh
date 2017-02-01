@@ -18,6 +18,7 @@ echo "Linking config files to $HOME"
 ln -sf $HOME/pi-dotfiles/.bashrc $HOME/.bashrc
 ln -sf $HOME/pi-dotfiles/.tmux.conf $HOME/.tmux.conf
 ln -sf $HOME/pi-dotfiles/neofetch/config $HOME/.config/neofetch/config
+ln -sf $HOME/pi-dotfiles/neofetch/logo $HOME/.config/neofetch/logo
 
 # Refresh bash settings
 echo "Refreshing bash"

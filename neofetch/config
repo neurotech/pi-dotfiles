@@ -3,14 +3,12 @@
 print_info() {
   info "OS" distro
   info "Model" model
-  info "Kernel" kernel
   info "Uptime" uptime
   info "Shell" shell
   info "Memory" memory
   info "Local IP" local_ip
 }
 
-kernel_shorthand="on"
 distro_shorthand="off"
 os_arch="on"
 uptime_shorthand="off"
@@ -52,7 +50,7 @@ memory_display="off"
 battery_display="off"
 disk_display="off"
 image_backend="ascii"
-image_source="auto"
+image_source="$HOME/config/logo"
 ascii_distro="auto"
 ascii_colors=(distro)
 ascii_bold="on"
