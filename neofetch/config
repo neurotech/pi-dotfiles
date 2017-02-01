@@ -66,7 +66,6 @@ image_host="teknik"
 image_backend="off"
 image_source="auto"
 ascii_distro="auto"
-ascii_colors=("distro")
 ascii_bold="off"
 
 config_version="3.0.1"
