@@ -2,6 +2,7 @@
 
 print_info() {
   info "OS" distro
+  info underline
   info "Model" model
   info "Uptime" uptime
   info "Shell" shell
@@ -65,7 +66,7 @@ image_host="teknik"
 image_backend="ascii"
 image_source="$HOME/.config/neofetch/logo"
 ascii_distro="arch_small"
-ascii_colors=("1 1 1 5 7 7")
+ascii_colors=("distro")
 ascii_bold="off"
 
 config_version="3.0.1"
