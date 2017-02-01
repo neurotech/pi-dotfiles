@@ -4,7 +4,7 @@
 sudo -v
 
 # essentials
-export ESSENTIALS="git curl tmux fail2ban htop lynx wakeonlan watchdog"
+export ESSENTIALS="git curl tmux fail2ban htop lynx wakeonlan watchdog toilet"
 echo "Updating apt and installing: $ESSENTIALS"
 sudo apt-get update && sudo apt-get install $ESSENTIALS
 
