@@ -48,9 +48,9 @@ esac
 
 # Aliases
 alias agu="sudo apt-get update && sudo apt-get upgrade"
+alias refresh="source ~/.bashrc"
 alias ..="cd .."
 alias cd..="cd .."
-alias refresh="source ~/.bashrc"
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
@@ -65,6 +65,3 @@ export LANGUAGE="en_GB.UTF-8"
 export LC_ALL="en_GB.UTF-8"
 export LANG="en_GB.UTF-8"
 export LC_TYPE="en_GB.UTF-8"
-
-export PI_LIGHT_HTTP_PORT="8000"
-export PATH="$HOME/.yarn/bin:$PATH"
