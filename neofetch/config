@@ -49,11 +49,6 @@ cpu_display="off"
 memory_display="off"
 battery_display="off"
 disk_display="off"
-image_backend="ascii"
-image_source="$HOME/config/logo"
-ascii_distro="auto"
-ascii_colors=(distro)
-ascii_bold="on"
 thumbnail_dir="${XDG_CACHE_HOME:-${HOME}/.cache}/thumbnails/neofetch"
 crop_mode="normal"
 crop_offset="center"
@@ -66,4 +61,11 @@ scrot_cmd="auto"
 scrot_dir="$HOME/Pictures/"
 scrot_name="neofetch-$(date +%F-%I-%M-%S-${RANDOM}).png"
 image_host="teknik"
+
+image_backend="ascii"
+image_source="$HOME/.config/neofetch/logo"
+ascii_distro="auto"
+ascii_colors=(distro)
+ascii_bold="on"
+
 config_version="3.0.1"
