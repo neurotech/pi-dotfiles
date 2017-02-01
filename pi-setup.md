@@ -26,7 +26,19 @@ Let's update RPi:
 
 It might take a while.
 
-## 4. Watchdog
+## 4. motd
+
+Prepare the Pi for a custom MOTD. Edit `/etc/ssh/sshd_config`:
+
+`sudo nano /etc/ssh/sshd_config`
+
+Set `PrintLastLog` to `no`
+
+Restart the sshd service:
+
+`sudo systemctl restart sshd`
+
+## 5. Watchdog
 
 Now we're going to install watchdog. Its purpose is to automatically restart RPi if it becomes unresponsive.
 
@@ -59,7 +71,7 @@ Start watchdog with:
 
 `sudo service watchdog start`
 
-## 5. Firewall
+## 6. Firewall
 
 We're going to use UFW (Uncomplicated FireWall) to restrict access to our RPi:
 
