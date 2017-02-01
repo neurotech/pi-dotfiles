@@ -63,9 +63,9 @@ scrot_dir="$HOME/Pictures/"
 scrot_name="neofetch-$(date +%F-%I-%M-%S-${RANDOM}).png"
 image_host="teknik"
 
-image_backend="ascii"
-image_source="$HOME/.config/neofetch/logo"
-ascii_distro="arch_small"
+image_backend="off"
+image_source="auto"
+ascii_distro="auto"
 ascii_colors=("distro")
 ascii_bold="off"
 

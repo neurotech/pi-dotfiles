@@ -22,7 +22,7 @@ ln -sf $HOME/pi-dotfiles/.bashrc $HOME/.bashrc
 ln -sf $HOME/pi-dotfiles/.tmux.conf $HOME/.tmux.conf
 ln -sf $HOME/pi-dotfiles/neofetch/config $HOME/.config/neofetch/config
 ln -sf $HOME/pi-dotfiles/neofetch/logo $HOME/.config/neofetch/logo
-ln -sf $HOME/motd.sh /etc/profile.d 
+echo "toilet -f smblock 'hovercastle' --filter crop:gay && echo '' && neofetch" >> sudo /etc/profile
 
 # Refresh bash settings
 echo "Refreshing bash"
