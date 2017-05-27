@@ -87,7 +87,7 @@ And we can see its status with:
 
 As you can see, we're accepting incoming connections only on port 22.
 
-## 6. fail2ban
+## 7. fail2ban
 
 Now we're going to install fail2ban which will automatically ban IP addresses that are failing to get into our RPi too many times:
 
@@ -103,10 +103,15 @@ and check current bans with:
 
 `sudo iptables -L`
 
-Done!
+## 8. `libav-tools`
+
+Install `libav-tools` for [https://discord.js.org/](Discord.js) support:
+
+`sudo apt-get install libav-tools`
 
 ---
 
-> Thanks to Peter Legierski for the original tutorial:
+Done!
 
+> Thanks to Peter Legierski for the original tutorial:
 > **[http://blog.self.li/post/63281257339/raspberry-pi-part-1-basic-setup-without-cables](http://blog.self.li/post/63281257339/raspberry-pi-part-1-basic-setup-without-cables)**
