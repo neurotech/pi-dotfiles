@@ -69,4 +69,4 @@ export LANG="en_GB.UTF-8"
 export LC_TYPE="en_GB.UTF-8"
 
 # Path
-export PATH="$HOME/.yarn/bin:$PATH"
+export PATH="$HOME/.yarn/bin:/usr/local/node/bin:$PATH"
