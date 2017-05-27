@@ -61,7 +61,12 @@ if [ -x /usr/bin/dircolors ]; then
   alias ls='ls --color=auto'
 fi
 
+source $HOME/secretz.env
+
 export LANGUAGE="en_GB.UTF-8"
 export LC_ALL="en_GB.UTF-8"
 export LANG="en_GB.UTF-8"
 export LC_TYPE="en_GB.UTF-8"
+
+# Path
+export PATH="$HOME/.yarn/bin:$PATH"
