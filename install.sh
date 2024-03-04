@@ -1,23 +1,23 @@
 #!/bin/sh
 
-# super
+# Super
 sudo -v
 
-# essentials
+# Essentials
 export ESSENTIALS="git curl tmux fail2ban btop lynx wakeonlan watchdog toilet neofetch"
 echo "Updating apt and installing: $ESSENTIALS"
 sudo apt-get update && sudo apt-get install $ESSENTIALS
 
-# motd
+# MOTD Preparation
 sudo rm /etc/motd
 
-# Link repo files to ~
-echo "Linking config files to $HOME"
+# Link repo files
+echo "Linking config files..."
 ln -sf $PWD/.bashrc $HOME/.bashrc
 ln -sf $PWD/.tmux.conf $HOME/.tmux.conf
 ln -sf $PWD/neofetch/config $HOME/.config/neofetch/config.conf
-ln -sf $PWD/neofetch/logo $HOME/.config/neofetch/logo
-echo "toilet -f smblock 'hovercastle' --filter crop:gay && echo '' && neofetch --colors 1 2 3 5 3 7" >> sudo /etc/profile
+sudo ln -sf $PWD/00-motd.sh /etc/update-motd.d/00-motd.sh
+sudo chmod +x /etc/update-motd.d/00-motd.sh
 
 # Refresh bash settings
 echo "Refreshing bash"
