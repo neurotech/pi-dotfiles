@@ -17,8 +17,8 @@ echo "Linking config files..."
 ln -sf $PWD/.bashrc $HOME/.bashrc
 ln -sf $PWD/.tmux.conf $HOME/.tmux.conf
 ln -sf $PWD/neofetch/config $HOME/.config/neofetch/config.conf
-sudo ln -sf $PWD/motd.sh /etc/update-motd.d/motd.sh
-sudo chmod 755 /etc/update-motd.d/motd.sh
+sudo ln -sf $PWD/motd.sh /etc/profile.d/motd.sh
+sudo chmod 755 /etc/profile.d/motd.sh
 
 
 # Refresh bash settings
