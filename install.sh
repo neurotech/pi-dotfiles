@@ -23,4 +23,4 @@ sudo chmod 755 /etc/profile.d/motd.sh
 
 # Refresh bash settings
 echo "Refreshing bash"
-source ~/.bashrc
+source $HOME/.bashrc
